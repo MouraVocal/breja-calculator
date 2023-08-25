@@ -6,6 +6,7 @@
     "assetBundlePatterns": ["**/*"],
     "experiments": {
       "tsconfigPaths": true
-    }
+    },
+    "orientation": "portrait"
   }
 }
