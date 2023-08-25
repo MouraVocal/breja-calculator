@@ -1,13 +1,17 @@
-import { StatusBar } from 'expo-status-bar'
 import React from 'react'
-import { Text } from 'react-native'
+import LottieView from 'lottie-react-native'
 import { Container } from './styles'
+import { StatusBar } from 'expo-status-bar'
 
 export default function App() {
   return (
     <Container>
+      <LottieView
+        autoPlay
+        source={require('./assets/lottie/beer.json')}
+        resizeMode="cover"
+      />
       <StatusBar style="auto" />
-      <Text>Open up App.js to start working on your app!</Text>
     </Container>
   )
 }
